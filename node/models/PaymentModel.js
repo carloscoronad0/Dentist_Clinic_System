@@ -3,7 +3,7 @@ import { DataTypes } from "sequelize";
 
 const PaymentModel = db.define('Payments', {
     appointment_id: {type: DataTypes.INTEGER},
-    amount: {type: DataTypes.INT},
+    amount: {type: DataTypes.INTEGER},
     method: {type: DataTypes.STRING}
 })
 

@@ -1,4 +1,4 @@
-import ClientModel from "../models/ClientModel"; // importar el modelo
+import ClientModel from "../models/ClientModel.js"; // importar el modelo
 
 // Metodos para el CRUD
 
